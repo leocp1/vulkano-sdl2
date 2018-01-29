@@ -1,0 +1,6 @@
+[package]
+name = "vulkano-sdl2"
+version = "0.1.0"
+authors = ["leocp1"]
+
+[dependencies]
