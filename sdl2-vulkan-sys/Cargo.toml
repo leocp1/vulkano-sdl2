@@ -1,0 +1,12 @@
+[package]
+name = "sdl2-vulkan-sys"
+description = "Raw SDL2_vulkan bindings for Rust, used internally by vulkano-sdl2"
+repository = "https://github.com/leocp1/vulkano-sdl2"
+version = "0.0.1"
+authors = ["leocp1"]
+license = "MIT"
+
+[dependencies]
+libc = "0.2"
+sdl2 = "0.31.0"
+vk-sys = "0.3.2"

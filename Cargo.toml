@@ -1,6 +1,15 @@
 [package]
 name = "vulkano-sdl2"
-version = "0.1.0"
-authors = ["leocp1"]
+version = "0.0.1"
+authors = ["leocp1", "Pierre Krieger <pierre.krieger1708@gmail.com>", "The vulkano contributors"]
+repository = "https://github.com/leocp1/vulkano-sdl2"
+description = "Link between vulkano and SDL2"
+license = "MIT"
+categories = ["rendering::graphics-api"]
 
 [dependencies]
+libc = "0.2"
+vk-sys = "0.3.2"
+vulkano = "0.7.0"
+sdl2 = "0.31.0"
+sdl2-vulkan-sys = { path = "sdl2-vulkan-sys" }
